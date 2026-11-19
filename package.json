@@ -1,0 +1,12 @@
+{
+  "name": "shomero",
+  "version": "0.2.1",
+  "description": "Install Shomero skills into Claude Code, Codex, Gemini CLI, Cursor and Copilot",
+  "type": "module",
+  "bin": { "shomero": "bin/shomero.mjs" },
+  "files": ["bin/", "install.sh"],
+  "engines": { "node": ">=18.3" },
+  "scripts": { "test": "node --test test/*.test.mjs" },
+  "license": "UNLICENSED",
+  "private": true
+}
