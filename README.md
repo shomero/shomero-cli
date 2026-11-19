@@ -16,12 +16,6 @@ Skills go **for your user** by default (`~/.claude/skills`, `~/.agents/skills`),
 
 Needs Node.js 18+ and git. Pin a version with `SHOMERO_VERSION=v0.1.0` in front of `bash`.
 
-While this repo is private, install through your GitHub login instead:
-
-```bash
-gh release download -R shomero/shomero-cli -p install.sh -O - | bash
-```
-
 ## Commands
 
 | Command | Does |
@@ -72,3 +66,9 @@ node bin/shomero.mjs list --source ../shomero-skills
 ```
 
 One file, no dependencies: `bin/shomero.mjs`.
+
+## License and contributions
+
+[Apache License 2.0](LICENSE). Use the CLI freely, change it, and share it; keep the license when you pass it on.
+
+Changes are welcome: open a pull request. What you contribute is under the same license, as the license itself says (section 5), so there is nothing to sign.
